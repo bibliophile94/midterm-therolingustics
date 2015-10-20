@@ -6,9 +6,17 @@
         <link rel="stylesheet" href="moss.css">
     </head>
     <body>
-	<img src="message01.png" alt="TEST" style="width:100px;height:100px;">
-	<img src="message01.png" alt="TEST" style="width:100px;height:100px;">
-	<bold> TESTING </bold
-        <script src="moss.js"></script>
-    </body>
+	The Moss Tree
+	<script>
+	setInterval({
+	var img = document.createElement('img');
+	img.setAttribute("style", "position:absolute;");
+	img.setAttribute("src", "message01.png");
+	document.body.appendChild(img);
+	var xy = getRandomPosition(img);
+	img.style.top = xy[0] + 'px';
+	img.style.left = xy[1] + 'px';
+},6000);
+	</script>
+	</body>
 </html>

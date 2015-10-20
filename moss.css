@@ -5,11 +5,9 @@ body {
 	background: url("moss2.jpg");
 	background-size: 100%;
 	background-position:top;
-	background-repeat: no-repeat;
+	background-repeat: vertical-align;
 }
 img {
     position: absolute;
-    left: 0px;
-    top: 0px;
     z-index: 1;
 }
