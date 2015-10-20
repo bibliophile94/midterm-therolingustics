@@ -5,7 +5,7 @@ function getRandomPosition(element) {
 	var randomY = Math.floor(Math.random()*y);
 	return [randomX,randomY];
 }
-function createElement() {
+/*function createElement() {
 	var img = document.createElement('img');
 	img.setAttribute("style", "position:absolute;");
 	img.setAttribute("src", "message01.png");
@@ -13,4 +13,4 @@ function createElement() {
 	var xy = getRandomPosition(img);
 	img.style.top = xy[0] + 'px';
 	img.style.left = xy[1] + 'px';
-}
+}*/

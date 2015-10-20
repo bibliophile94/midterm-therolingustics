@@ -6,17 +6,20 @@
         <link rel="stylesheet" href="moss.css">
     </head>
     <body>
-	The Moss Tree
 	<script>
-	setInterval({
+		setInterval(
+	function(){
 	var img = document.createElement('img');
-	img.setAttribute("style", "position:absolute;");
-	img.setAttribute("src", "message01.png");
+	img.setAttribute("style", "position:fixed;");
+	var x = Math.floor(Math.random()*2000);
+	img.style.top = x;
+	console.log(x);
+	var y = Math.floor(Math.random()*2000);
+	img.style.top = y;
+	console.log(y);
+	img.setAttribute("src", "message"+Math.floor(Math.random() * (3))+".png");
 	document.body.appendChild(img);
-	var xy = getRandomPosition(img);
-	img.style.top = xy[0] + 'px';
-	img.style.left = xy[1] + 'px';
-},6000);
+},5000);
 	</script>
 	</body>
 </html>

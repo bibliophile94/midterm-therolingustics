@@ -7,7 +7,3 @@ body {
 	background-position:top;
 	background-repeat: vertical-align;
 }
-img {
-    position: absolute;
-    z-index: 1;
-}
