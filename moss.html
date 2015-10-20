@@ -11,10 +11,10 @@
 	function(){
 	var img = document.createElement('img');
 	img.style.position = "fixed";
-	var x = Math.floor(Math.random()*100);
+	var x = Math.floor(Math.random()*2000);
 	img.style.top = y;
 	console.log(x);
-	var y = Math.floor(Math.random()*100);
+	var y = Math.floor(Math.random()*2000);
 	img.style.left = x + "px";
 	console.log(y);
 	img.setAttribute("src", "message"+Math.floor(Math.random() * (3))+".png");
