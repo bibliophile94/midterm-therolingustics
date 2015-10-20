@@ -15,10 +15,10 @@
 	img.style.top = y;
 	console.log(x);
 	var y = Math.floor(Math.random()*100);
-	img.style.top = x;
+	img.style.top = x + "px";
 	console.log(y);
 	img.setAttribute("src", "message"+Math.floor(Math.random() * (3))+".png");
-	img.style.top = y;
+	img.style.top = y + "px";
 	document.body.appendChild(img);
 },3000);
 	</script>
