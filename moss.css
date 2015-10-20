@@ -1,6 +1,9 @@
 body {
-    font: bold 120px helvetica, sans-serif;
+    font-family: 'Brush Script MT', cursive;
+	color: green;
     letter-spacing: 1px;
-    text-transform: uppercase;
-	background-image: url("moss2.jpg")
+	background: url("moss2.jpg");
+	background-size: 100%;
+	background-position:top;
+	background-repeat: no-repeat;
 }
